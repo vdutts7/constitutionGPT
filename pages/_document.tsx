@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head />
-        <body className="backdrop-hue-rotate-60 bg-[url('/images/usa-flag.jpeg')] bg-no-repeat bg-cover">
+        <body className="backdrop-hue-rotate-60 bg-[url('/images/flag.png')] bg-no-repeat bg-cover">
           <Main />
           <NextScript />
         </body>

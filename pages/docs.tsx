@@ -74,32 +74,32 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
       <div className="flex flex-col items-center justify-center min-h-screen py-2 mx-auto">
         <main className="flex flex-col items-center justify-center flex-1 w-full min-h-screen px-4 py-2 mx-auto mt-12 text-center sm:mt-20">
    
-          <div className="w-full max-w-xl">
+          <div className="w-full max-w-5xl">
             <form onSubmit={generateAnswer} className="flex items-center">
               <label htmlFor="question" className="sr-only">
                 Search
               </label>
               <div className="relative w-full">
-                <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                  <SearchIcon className="w-5 h-5 text-gray-400" aria-hidden="true" />
-                </div>
+                {/* <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                  <SearchIcon className="w-5 ml-4 h-5 text-gray-400" aria-hidden="true" />
+                </div> */}
                 <input
                   type="text"
                   name="question"
                   value={userQ}
                   onChange={e => setUserQ(e.target.value)}
-                  className="block w-full pl-10 pr-3 py-2 bg-gray-800 glassy hover:bg-orange-500 hover:bg-opacity-10 border opacity-30 hover:opacity-60 border-gray-300 hover:border-gray-300 rounded-md shadow-sm placeholder-gray-400 glassy focus:outline-none focus:border-orange-400 sm:text-sm focus:bg-orange-500 focus:bg-opacity-10"
-                  placeholder="Awaiting...."
+                  className="block w-full pl-10 pr-3 py-5 bg-[#ffffff] glassy hover:bg-[#000440] hover:bg-opacity-70 border opacity-100 hover:opacity-60 border-gray-300 hover:border-gray-300 rounded-md shadow-sm placeholder-gray-400 glassy focus:outline-none focus:border-white-400 text-base focus:bg-white-500 focus:bg-opacity-80"
+  placeholder="Ask about the Constitution...."
                 />
               </div>
               <button
                 type="submit"
-                className="mr-2 ml-3 glassy inline-flex bg-orange-500  items-center px-4 py-2 border border-transparent hover:bg-orange-500 rounded-md shadow-sm text-sm font-medium text-white hover:bg-accent-focus focus:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent-orange-500"
+                className="mr-2 ml-3 glassy inline-flex bg-[#000440] items-center px-9 py-5 border border-transparent bg-[#000440] rounded-md shadow-sm text-base font-medium text-white hover:bg-[#000440] focus:bg-[#000440] focus:outline-none focus:ring-2 focus:ring-offset-2"
               >
                 {loading && (
                   <LoadingDots color="white" style="sm" />
                 )}
-                Ask
+                Ask!
               </button>
             </form>
             <Toaster
@@ -117,7 +117,7 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
                           <div
                             className={`p-4 transition bg-neutral border border-neutral-focus shadow-md rounded-xl overflow-x-auto max-w-xl ${
                               index === 0
-                                ? "hover:border-accent-focus cursor-copy text-left"
+                                ? "hover:border-[#000440]-focus cursor-copy text-left"
                                 : ""
                             }`}
                             onClick={() => {
