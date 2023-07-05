@@ -6,7 +6,7 @@
 
   
   </a>
-  <h2 align="center">Constitution GPT </h2> <p align="center"> AI chat over the US Constitution 📜 💬 🇺🇸 [LINK](https://constitution-gpt.vercel.app/) </p> </div> <p align="center"> <img src="https://github.com/vdutts7/constitutionGPT/blob/main/public/screen-rec.gif"/> </p>  
+  <h2 align="center">Constitution GPT </h2> <p align="center"> AI chat over the US Constitution 📜 💬 🇺🇸 <a href=https://constitution-gpt.vercel.app/>LINK</a>  </p> </div> <p align="center"> <img src="https://github.com/vdutts7/constitutionGPT/blob/main/public/screen-rec.gif"/> </p>  
 
 
 <!-- TABLE OF CONTENTS -->
