@@ -184,7 +184,7 @@ Go to `http://localhost:3000`. You should be able to type and ask questions now.
 [TailwindCSS]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=skyblue&color=0A192F
 [TailwindCSS-url]: https://tailwindcss.com/
 
-[OpenAI]: https://img.shields.io/badge/OpenAI%20ada--002%20GPT--3.5%20Whisper-0058A0?style=for-the-badge&logo=openai&logoColor=white&color=4aa481
+[OpenAI]: https://img.shields.io/badge/OpenAI%20ada--002%20GPT-0058A0?style=for-the-badge&logo=openai&logoColor=white&color=4aa481
 [OpenAI-url]: https://openai.com/
 
 [AssemblyAI]: https://img.shields.io/badge/Assembly_AI-DD0031?style=for-the-badge&logo=https://github.com/vdutts7/yt-ai-chat/public/assemblyai.png&color=blue
