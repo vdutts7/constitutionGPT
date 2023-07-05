@@ -137,9 +137,13 @@ Go to `http://localhost:3000`. You should be able to type and ask questions now.
 
 ## 🚀 Next steps
 
-- Larger website with all the SCOTUS cases?
-- Data on US presidents and administrations?
+Use this project as a foundation and build on top of this! 
 
+💡 Ideas 💡
+- Entire history of SCOTUS cases?
+- Specific data for each US president + administration?
+- Patriot Act? Chips Act? 
+- CIA, DEA, FDA, CDC, etc. + all the confusing docs on the .gov websites
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
