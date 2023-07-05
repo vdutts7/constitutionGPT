@@ -196,5 +196,8 @@ Go to `http://localhost:3000`. You should be able to type and ask questions now.
 [Pinecone]: https://img.shields.io/badge/Pinecone-FFCA28?style=for-the-badge&https://github.com/vdutts7/yt-ai-chat/public/pinecone.png&logoColor=black&color=white
 [Pinecone-url]: https://www.pinecone.io/
 
+[Supabase]: https://img.shields.io/badge/Supabase%20pgvector-FFCA28?style=for-the-badge&logo=Supabase&logoColor=49E879&color=black
+[Supabase-url]: https://Supabase.com/
+
 [Vercel]: https://img.shields.io/badge/Vercel-FFFFFF?style=for-the-badge&logo=Vercel&logoColor=white&color=black
 [Vercel-url]: https://Vercel.com/
