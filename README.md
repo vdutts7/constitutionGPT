@@ -80,51 +80,51 @@ _**IMPORTANT: Verify that `.gitignore` contains `.env` in it.**_
 - Create a Supabase account and project at https://app.supabase.com/sign-in
 - Run this query in SQL editor:
 
-```
-create extension vector;
-```
+    ```
+    create extension vector;
+    ```
 
 - Ceate a table to store documents and their embeddings. Head over to the SQL Editor and run the following query:
 
-```sql
-create table documents (
-  id bigserial primary key,
-  content text,
-  url text,
-  embedding vector (1536)
-);
-```
+    ```sql
+    create table documents (
+      id bigserial primary key,
+      content text,
+      url text,
+      embedding vector (1536)
+    );
+    ```
 
 - Add similarity searches function:
 
-```sql
-create or replace function match_documents (
-  query_embedding vector(1536),
-  similarity_threshold float,
-  match_count int
-)
-returns table (
-  id bigint,
-  content text,
-  url text,
-  similarity float
-)
-language plpgsql
-as $$
-begin
-  return query
-  select
-    documents.id,
-    documents.content,
-    documents.url,
-    1 - (documents.embedding <=> query_embedding) as similarity
-  from documents
-  where 1 - (documents.embedding <=> query_embedding) > similarity_threshold
-  order by documents.embedding <=> query_embedding
-  limit match_count;
-end;
-$$;
-```
+    ```sql
+    create or replace function match_documents (
+      query_embedding vector(1536),
+      similarity_threshold float,
+      match_count int
+    )
+    returns table (
+      id bigint,
+      content text,
+      url text,
+      similarity float
+    )
+    language plpgsql
+    as $$
+    begin
+      return query
+      select
+        documents.id,
+        documents.content,
+        documents.url,
+        1 - (documents.embedding <=> query_embedding) as similarity
+      from documents
+      where 1 - (documents.embedding <=> query_embedding) > similarity_threshold
+      order by documents.embedding <=> query_embedding
+      limit match_count;
+    end;
+    $$;
+    ```
 
 ### Chat frontend
 
