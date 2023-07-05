@@ -69,8 +69,8 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
         title="ConstitutionGPT"
         description="ConstitutionGPT"
         cardImage="/Users/vdutts7/Documents/constitutionGPT/public/favicon.ico"
-        url=""
-      />
+        url="/Users/vdutts7/Documents/constitutionGPT/public/favicon.ico"
+    />
       
 
       <div className="flex flex-col items-center justify-center min-h-screen py-2 mx-auto">
