@@ -23,11 +23,7 @@
             <li><a href=#chat-frontend>Chat frontend</a></li>
             <li><a href=#run-app>Run app</a></li>
         </ul>
-    <a href="#next-steps">🚀 Next steps</a>
-        <ul>
-            <li><a href=#deploy>Deploy</a></li>
-            <li><a href=#customizations>Customizations</a></li>
-        </ul>
+    <a href="#next-steps">🚀 Next steps</a> 
     <a href="#tools-used">🔧 Tools used</a>
         <ul>
         </ul>
