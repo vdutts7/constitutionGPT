@@ -78,7 +78,7 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
    
           <div className="w-full max-w-5xl">
 
-          <h1 className="mx-auto mb-4 text-gray text-center max-w-4xl font-display text-5xl opacity-70 tracking-normal sm:text-2xl">
+          <h1 className="mx-auto mb-4 text-white text-center max-w-4xl font-display text-5xl opacity-70 tracking-normal sm:text-2xl text-shadow">
             <span className="relative whitespace-nowrap ">
               <i>Constitution GPT</i> 
             </span>

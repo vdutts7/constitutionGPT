@@ -117,3 +117,7 @@ a {
   box-shadow: 2px 2px 5px 5px rgba(106, 106, 106, 0.8);
   opacity: 0.git 9;
 }
+
+.text-shadow {
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+}
