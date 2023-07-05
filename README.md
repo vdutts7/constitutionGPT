@@ -77,15 +77,13 @@ _**IMPORTANT: Verify that `.gitignore` contains `.env` in it.**_
 
 ### Embeddings backend
 
+Within Supabase:
 - Create a Supabase account and project at https://app.supabase.com/sign-in
-- Run this query in SQL editor:
-
+- Run this query Supabase's SQL editor:
     ```
     create extension vector;
     ```
-
-- Ceate a table to store documents and their embeddings. Head over to the SQL Editor and run the following query:
-
+- Create a table to store embeddings with this query:
     ```sql
     create table documents (
       id bigserial primary key,
@@ -94,9 +92,7 @@ _**IMPORTANT: Verify that `.gitignore` contains `.env` in it.**_
       embedding vector (1536)
     );
     ```
-
-- Add similarity searches function:
-
+- Add similarity search function with another query:
     ```sql
     create or replace function match_documents (
       query_embedding vector(1536),
@@ -128,7 +124,8 @@ _**IMPORTANT: Verify that `.gitignore` contains `.env` in it.**_
 
 ### Chat frontend
 
-NextJs styled with Tailwind CSS. Chats streamed using OpenAIStream `utils/OpenAIStream.ts` 
+- NextJs styled with Tailwind CSS.
+- Chats streamed using OpenAIStream `utils/OpenAIStream.ts` 
 
 ### Run app
 
