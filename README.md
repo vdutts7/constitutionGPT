@@ -149,7 +149,7 @@ Go to `http://localhost:3000`. You should be able to type and ask questions now.
 
 
 <!-- BUILT WITH -->
-## 🔧 Built With
+## 🔧 Tools used
 [![Next][Next]][Next-url]
 [![OpenAI][OpenAI]][OpenAI-url]
 [![Supabase][Supabase]][Supabase-url]
