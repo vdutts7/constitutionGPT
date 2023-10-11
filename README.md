@@ -1,4 +1,3 @@
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
     <img src="https://github.com/vdutts7/constitutionGPT/blob/main/public/favicon.png" alt="Logo" width="80" height="80">
@@ -7,8 +6,17 @@
   
   </a>
   <h2 align="center">Constitution GPT </h2> <p align="center"> AI chat over the US Constitution 📜 💬 🇺🇸
-<br /> <a href=https://constitution-gpt.vercel.app/>LINK</a>  </p> </div> <p align="center"> <img src="https://github.com/vdutts7/constitutionGPT/blob/main/public/screen-rec.gif"/> </p>  
+<br /> 
+      
+[![Website][website]][website-url] 
+[![Github][github]][github-url] 
+      </p> </div> <p align="center"> <img src="https://github.com/vdutts7/constitutionGPT/blob/main/public/screen-rec.gif"/> </p> 
 
+
+
+ </div>
+
+<br/>
 
 ## Table of Contents
 
